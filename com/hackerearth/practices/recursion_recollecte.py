@@ -6,7 +6,7 @@ Created on 24-Nov-2016
 
 
 def fib(x):
-        if x=1
+        if x==1:
             return x
         else:
             return x*fib(x-1)
@@ -14,5 +14,5 @@ def fib(x):
 
 
 
-
+n=int(input())
 print(fib(int(n)))
