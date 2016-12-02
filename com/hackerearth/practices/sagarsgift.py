@@ -1,11 +1,13 @@
-'''
-Created on 17-Nov-2016
+def max_number(data):
+    temp="";
+    for i in range(len(data)):
+        temp+=str(values[i]);
+    return "".join(sorted(temp, reverse=True));
 
-@author: trinadhkoya
-'''
 N=int(input())
-gift_data=list(map(int,input().split()))[:N]
-s=sorted(gift_data)
-
-for i in range(0,len(s)):
-    print(s[i])
+for i in range(0,N):
+    T=int(input())
+    values=list(map(int,input().split()))[:T]
+    print(max_number(values))
+    
+    
